@@ -60,7 +60,7 @@ async function init() {
 	if (answers.text.length > 0 && answers.text.length < 4) {
 		user_text = answers.text;
 	} else {
-		console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
+		console.log("Invalid text, 1-3 characters only");
         return;
 	}
 	user_shape_color = answers.color;
